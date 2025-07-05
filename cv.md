@@ -28,6 +28,7 @@ console.log(reverseString("Hello World")); // ➞ "dlroW olleH"
 **Mogilev State Polytechnic College** (2021 - 2025)
 
 - Specialization: Information technology software
+- Rolling Scopes School
 - Completed additional courses in software development
 
 ## Languages
