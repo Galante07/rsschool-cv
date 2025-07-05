@@ -32,7 +32,7 @@ console.log(reverseString("Hello World")); // ➞ "dlroW olleH"
 
 ## Languages
 
-- Russian
-- Belarusian
-- English
+- Russian: Native
+- Belarusian: Native
+- English: Intermediate
 
