@@ -12,3 +12,27 @@ A person motivated by web development. I have a desire to learn new technologies
 - JavaScript 
 - Git/GitHub
 - VS Code
+## Code Example
+
+Here’s a simple solution to a problem from Codewars:
+
+```js
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+console.log(reverseString("Hello World")); // ➞ "dlroW olleH"
+```
+## Education
+
+**Mogilev State Polytechnic College** (2021 - 2025)
+
+- Specialization: Information technology software
+- Completed additional courses in software development
+
+## Languages
+
+- Russian
+- Belarusian
+- English
+
