@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>CV</h1>
+  <div class="container">
+    <header>
+      <h1>Nikita Sokolov</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="logo.jpg" alt="Nikita Sokolov" class="avatar" />
+        <p>A person motivated by web development. I have a desire to learn new technologies and improve myself in this every day. My goal is to become a professional in this field. I constantly work on some projects so as not to stand still</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git/GitHub</li>
+          <li>VS code</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://github.com/Galante07/rsschool-cv" target="_blank">Project 1</a></li>
+        </ul>
+      </section>
+
+      <section id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li>Email: <a href="mailto:neslgota10@gmail.com">neslgota10@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/galante07" target="_blank">Galante07</a></li>
+          <li>Telegram: @snv_vyv</li>
+        </ul>
+      </section>
+
+      <section id="code">
+        <h2>Example Code</h2>
+        <p>Here’s a simple solution to a problem from Codewars:</p>
+        <pre><code>
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+console.log(reverseString("Hello World")); // ➞ "dlroW olleH"
+        </code></pre>
+      </section>
+
+      <section id="education">
+        <h2>Education and English</h2>
+        <h3>Mogilev State Polytechnic College (2021 - 2025)</h3>
+        <ul>
+            <li>Specialization: Information technology software</li>
+        </ul>
+        <h3>Rolling Scopes School</h3>
+        <ul>
+            <li>JS / Front-end Pre-school RU Course</li>
+        </ul>
+        <h3>Completed additional courses in software development</h3>
+        <br>
+        <h3>English</h3>
+        <ul>
+            <li>Intermediate</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2025 
+        <a href="https://github.com/Galante07" target="_blank">Galante07</a>
+      </p>
+      <a href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img src="rs-school-logo.svg" alt="RS School Logo" class="logo" />
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
